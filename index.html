@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!--
+			GIT418: Assignment 4
+			Author: Michael Luzader
+			Date: 11/6/2018
+		-->
+		<title>Khan Games</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="khan.css">		
+		<script src="modernizr.custom.05819.js"> // Web Modernizer Script
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+		<header>
+			<h1><a href="index.html" title="logo" id="logo">Khan Games</a></h1>			
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="games.html">Games</a></li>
+				<li><a href="verify.html">Security</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h2>Welcome to Khan Games</h2>
+			<p>Hi, my name is Michael Luzader and I am studying Graphic Information Technology at ASU. This site is dedicated to my friend Kevin's business, Khan Games. I plan to use the skills and knowledge gained from my GIT studies to continue improving this site. Since 2009 Kevin has been making games for the original 1985 video game console, the Nintendo Entertainment System. He programs all the games in the 6502 Assembly Language. You can visit <a href="http://www.khangames.com/tablet/index.html" target="_blank">Khan Games' original site</a> for further information on his upcoming games.</p>
+			<br>
+			<div class="leftfact">
+				<form id="ageform">				
+						<input type="number" min="0" id="age" value="0" />
+						<label for="age">Enter your age for a fun fact!
+						</label>
+				</form>
+			</div>
+			<div class="rightfact">
+				<p><span id="ageReveal"> </span></p>
+			</div>
+		</main>
+		<footer>			
+				<p>
+					Copyright &copy; 2018 Michael Luzader<br>
+					This site is for educational purposes only<br>
+				</p>
+		</footer>
+		</div>
+		<script src="khan.js"></script>
+	</body>
+</html>
